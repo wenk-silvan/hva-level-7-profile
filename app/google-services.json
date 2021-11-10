@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "966224961980",
+    "project_id": "hva-level-7-task-1-profile",
+    "storage_bucket": "hva-level-7-task-1-profile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966224961980:android:fce9d0b734b10a36d6cbb9",
+        "android_client_info": {
+          "package_name": "nl.hva.madlevel7task1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966224961980-trgq4mtkr5s6o8n7ojn45lvc0d58n5pd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7J9aq01IRxITbe-G31o17CihRkSSpeAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966224961980-trgq4mtkr5s6o8n7ojn45lvc0d58n5pd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
