@@ -28,11 +28,9 @@ class MainActivity : AppCompatActivity() {
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
 
-        binding.fab.setOnClickListener {
-            FirebaseFirestore.setLoggingEnabled(true)
-            FirebaseApp.initializeApp(this)
-            findNavController(R.id.nav_host_fragment_content_main).navigate(R.id.CreateProfileFragment)
-        }
+        FirebaseFirestore.setLoggingEnabled(true)
+        FirebaseApp.initializeApp(this)
+        findNavController(R.id.nav_host_fragment_content_main).navigate(R.id.CreateProfileFragment)
     }
 
     override fun onSupportNavigateUp(): Boolean {
